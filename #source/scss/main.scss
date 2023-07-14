@@ -148,6 +148,19 @@ a {
     padding-left: 12px;
 }
 
+.bootomlogo {
+    position: fixed;
+    bottom: 12px;
+    padding: 0 12px;
+    text-align: right;
+    width: 100%;
+    z-index: 15;
+
+    img {
+        width: 50px;
+    }
+}
+
 
 
 @media(orientation: landscape) and (max-width:1200px) {
@@ -293,6 +306,14 @@ a {
         padding: 0 20px;
     }
 
+    .bootomlogo {
+        padding: 0 20px;
+        bottom: 20px;
+        img {
+            width: 73px;
+        }
+    }
+
 }
 
 @media (min-width:900px) and (max-width:1200px) and (orientation: landscape) {
@@ -357,6 +378,14 @@ a {
         margin-bottom: 23px;
     }
 
+    .bootomlogo {
+        padding: 0 20px;
+        bottom: 20px;
+        img {
+            width: 73px;
+        }
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -385,5 +414,16 @@ a {
 
     .appheader .appheader__descr .users {
         font-size: 14px;
+    }
+
+    .bootomlogo {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        bottom: 15px;
+        
+        img {
+            width: 73px;
+        }
     }
 }
